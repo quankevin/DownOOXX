@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B671DB41D178581001C20AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B671DB31D178581001C20AA /* AppDelegate.swift */; };
+		4B671DB61D178581001C20AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B671DB51D178581001C20AA /* ViewController.swift */; };
+		4B671DB81D178581001C20AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B671DB71D178581001C20AA /* Assets.xcassets */; };
+		4B671DBB1D178581001C20AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B671DB91D178581001C20AA /* Main.storyboard */; };
+		4B671DC61D178581001C20AA /* DownXXOOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B671DC51D178581001C20AA /* DownXXOOTests.swift */; };
+		4B671DD11D178581001C20AA /* DownXXOOUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B671DD01D178581001C20AA /* DownXXOOUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B671DC21D178581001C20AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B671DA81D178581001C20AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B671DAF1D178581001C20AA;
+			remoteInfo = DownXXOO;
+		};
+		4B671DCD1D178581001C20AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B671DA81D178581001C20AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B671DAF1D178581001C20AA;
+			remoteInfo = DownXXOO;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4B671DB01D178581001C20AA /* DownXXOO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DownXXOO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B671DB31D178581001C20AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4B671DB51D178581001C20AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4B671DB71D178581001C20AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B671DBA1D178581001C20AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4B671DBC1D178581001C20AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B671DC11D178581001C20AA /* DownXXOOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DownXXOOTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B671DC51D178581001C20AA /* DownXXOOTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownXXOOTests.swift; sourceTree = "<group>"; };
+		4B671DC71D178581001C20AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B671DCC1D178581001C20AA /* DownXXOOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DownXXOOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B671DD01D178581001C20AA /* DownXXOOUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownXXOOUITests.swift; sourceTree = "<group>"; };
+		4B671DD21D178581001C20AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B671DAD1D178581001C20AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B671DBE1D178581001C20AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B671DC91D178581001C20AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B671DA71D178581001C20AA = {
+			isa = PBXGroup;
+			children = (
+				4B671DB21D178581001C20AA /* DownXXOO */,
+				4B671DC41D178581001C20AA /* DownXXOOTests */,
+				4B671DCF1D178581001C20AA /* DownXXOOUITests */,
+				4B671DB11D178581001C20AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B671DB11D178581001C20AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B671DB01D178581001C20AA /* DownXXOO.app */,
+				4B671DC11D178581001C20AA /* DownXXOOTests.xctest */,
+				4B671DCC1D178581001C20AA /* DownXXOOUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B671DB21D178581001C20AA /* DownXXOO */ = {
+			isa = PBXGroup;
+			children = (
+				4B671DB31D178581001C20AA /* AppDelegate.swift */,
+				4B671DB51D178581001C20AA /* ViewController.swift */,
+				4B671DB71D178581001C20AA /* Assets.xcassets */,
+				4B671DB91D178581001C20AA /* Main.storyboard */,
+				4B671DBC1D178581001C20AA /* Info.plist */,
+			);
+			path = DownXXOO;
+			sourceTree = "<group>";
+		};
+		4B671DC41D178581001C20AA /* DownXXOOTests */ = {
+			isa = PBXGroup;
+			children = (
+				4B671DC51D178581001C20AA /* DownXXOOTests.swift */,
+				4B671DC71D178581001C20AA /* Info.plist */,
+			);
+			path = DownXXOOTests;
+			sourceTree = "<group>";
+		};
+		4B671DCF1D178581001C20AA /* DownXXOOUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4B671DD01D178581001C20AA /* DownXXOOUITests.swift */,
+				4B671DD21D178581001C20AA /* Info.plist */,
+			);
+			path = DownXXOOUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B671DAF1D178581001C20AA /* DownXXOO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B671DD51D178581001C20AA /* Build configuration list for PBXNativeTarget "DownXXOO" */;
+			buildPhases = (
+				4B671DAC1D178581001C20AA /* Sources */,
+				4B671DAD1D178581001C20AA /* Frameworks */,
+				4B671DAE1D178581001C20AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DownXXOO;
+			productName = DownXXOO;
+			productReference = 4B671DB01D178581001C20AA /* DownXXOO.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4B671DC01D178581001C20AA /* DownXXOOTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B671DD81D178581001C20AA /* Build configuration list for PBXNativeTarget "DownXXOOTests" */;
+			buildPhases = (
+				4B671DBD1D178581001C20AA /* Sources */,
+				4B671DBE1D178581001C20AA /* Frameworks */,
+				4B671DBF1D178581001C20AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B671DC31D178581001C20AA /* PBXTargetDependency */,
+			);
+			name = DownXXOOTests;
+			productName = DownXXOOTests;
+			productReference = 4B671DC11D178581001C20AA /* DownXXOOTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4B671DCB1D178581001C20AA /* DownXXOOUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B671DDB1D178581001C20AA /* Build configuration list for PBXNativeTarget "DownXXOOUITests" */;
+			buildPhases = (
+				4B671DC81D178581001C20AA /* Sources */,
+				4B671DC91D178581001C20AA /* Frameworks */,
+				4B671DCA1D178581001C20AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B671DCE1D178581001C20AA /* PBXTargetDependency */,
+			);
+			name = DownXXOOUITests;
+			productName = DownXXOOUITests;
+			productReference = 4B671DCC1D178581001C20AA /* DownXXOOUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B671DA81D178581001C20AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "维农-quan";
+				TargetAttributes = {
+					4B671DAF1D178581001C20AA = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					4B671DC01D178581001C20AA = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 4B671DAF1D178581001C20AA;
+					};
+					4B671DCB1D178581001C20AA = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 4B671DAF1D178581001C20AA;
+					};
+				};
+			};
+			buildConfigurationList = 4B671DAB1D178581001C20AA /* Build configuration list for PBXProject "DownXXOO" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B671DA71D178581001C20AA;
+			productRefGroup = 4B671DB11D178581001C20AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B671DAF1D178581001C20AA /* DownXXOO */,
+				4B671DC01D178581001C20AA /* DownXXOOTests */,
+				4B671DCB1D178581001C20AA /* DownXXOOUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B671DAE1D178581001C20AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B671DB81D178581001C20AA /* Assets.xcassets in Resources */,
+				4B671DBB1D178581001C20AA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B671DBF1D178581001C20AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B671DCA1D178581001C20AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B671DAC1D178581001C20AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B671DB61D178581001C20AA /* ViewController.swift in Sources */,
+				4B671DB41D178581001C20AA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B671DBD1D178581001C20AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B671DC61D178581001C20AA /* DownXXOOTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B671DC81D178581001C20AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B671DD11D178581001C20AA /* DownXXOOUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B671DC31D178581001C20AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B671DAF1D178581001C20AA /* DownXXOO */;
+			targetProxy = 4B671DC21D178581001C20AA /* PBXContainerItemProxy */;
+		};
+		4B671DCE1D178581001C20AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B671DAF1D178581001C20AA /* DownXXOO */;
+			targetProxy = 4B671DCD1D178581001C20AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4B671DB91D178581001C20AA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B671DBA1D178581001C20AA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4B671DD31D178581001C20AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4B671DD41D178581001C20AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4B671DD61D178581001C20AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DownXXOO/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weinong.DownXXOO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4B671DD71D178581001C20AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DownXXOO/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weinong.DownXXOO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4B671DD91D178581001C20AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DownXXOOTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weinong.DownXXOOTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DownXXOO.app/Contents/MacOS/DownXXOO";
+			};
+			name = Debug;
+		};
+		4B671DDA1D178581001C20AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DownXXOOTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weinong.DownXXOOTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DownXXOO.app/Contents/MacOS/DownXXOO";
+			};
+			name = Release;
+		};
+		4B671DDC1D178581001C20AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DownXXOOUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weinong.DownXXOOUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DownXXOO;
+			};
+			name = Debug;
+		};
+		4B671DDD1D178581001C20AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DownXXOOUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weinong.DownXXOOUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DownXXOO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B671DAB1D178581001C20AA /* Build configuration list for PBXProject "DownXXOO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B671DD31D178581001C20AA /* Debug */,
+				4B671DD41D178581001C20AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B671DD51D178581001C20AA /* Build configuration list for PBXNativeTarget "DownXXOO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B671DD61D178581001C20AA /* Debug */,
+				4B671DD71D178581001C20AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4B671DD81D178581001C20AA /* Build configuration list for PBXNativeTarget "DownXXOOTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B671DD91D178581001C20AA /* Debug */,
+				4B671DDA1D178581001C20AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4B671DDB1D178581001C20AA /* Build configuration list for PBXNativeTarget "DownXXOOUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B671DDC1D178581001C20AA /* Debug */,
+				4B671DDD1D178581001C20AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B671DA81D178581001C20AA /* Project object */;
+}
