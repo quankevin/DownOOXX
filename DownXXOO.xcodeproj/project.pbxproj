@@ -7,12 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0ADB1A82491736FF62FD7DF5 /* Pods_DownXXOO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D6B7CD2528775113033A594 /* Pods_DownXXOO.framework */; };
 		4B671DB41D178581001C20AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B671DB31D178581001C20AA /* AppDelegate.swift */; };
-		4B671DB61D178581001C20AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B671DB51D178581001C20AA /* ViewController.swift */; };
+		4B671DB61D178581001C20AA /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B671DB51D178581001C20AA /* TabViewController.swift */; };
 		4B671DB81D178581001C20AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B671DB71D178581001C20AA /* Assets.xcassets */; };
 		4B671DBB1D178581001C20AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B671DB91D178581001C20AA /* Main.storyboard */; };
 		4B671DC61D178581001C20AA /* DownXXOOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B671DC51D178581001C20AA /* DownXXOOTests.swift */; };
 		4B671DD11D178581001C20AA /* DownXXOOUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B671DD01D178581001C20AA /* DownXXOOUITests.swift */; };
+		4B671DE11D17A37D001C20AA /* NewFeedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B671DE01D17A37D001C20AA /* NewFeedController.swift */; };
+		4B671DE41D17D6A6001C20AA /* GetJianDanApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B671DE31D17D6A6001C20AA /* GetJianDanApi.swift */; };
+		4B770D051D19306E00CB8BAC /* RecentItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B770D041D19306E00CB8BAC /* RecentItem.swift */; };
+		4B770D501D19455400CB8BAC /* JianDanScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B770D4F1D19455400CB8BAC /* JianDanScrollView.swift */; };
+		4B770D521D1A2D2600CB8BAC /* RecentItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B770D511D1A2D2600CB8BAC /* RecentItemCell.swift */; };
+		4B770D581D1A3A6900CB8BAC /* NSColor+JianDan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B770D571D1A3A6900CB8BAC /* NSColor+JianDan.swift */; };
+		4B770D5A1D1A3B4000CB8BAC /* JianDanButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B770D591D1A3B4000CB8BAC /* JianDanButton.swift */; };
+		4B770D701D1A69E900CB8BAC /* AlamofireObjectMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B770D5D1D1A69E900CB8BAC /* AlamofireObjectMapper.swift */; };
+		4B770D711D1A69E900CB8BAC /* CustomDateFormatTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B770D601D1A69E900CB8BAC /* CustomDateFormatTransform.swift */; };
+		4B770D721D1A69E900CB8BAC /* DateFormatterTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B770D611D1A69E900CB8BAC /* DateFormatterTransform.swift */; };
+		4B770D731D1A69E900CB8BAC /* DateTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B770D621D1A69E900CB8BAC /* DateTransform.swift */; };
+		4B770D741D1A69E900CB8BAC /* EnumTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B770D631D1A69E900CB8BAC /* EnumTransform.swift */; };
+		4B770D751D1A69E900CB8BAC /* FromJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B770D641D1A69E900CB8BAC /* FromJSON.swift */; };
+		4B770D761D1A69E900CB8BAC /* ISO8601DateTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B770D651D1A69E900CB8BAC /* ISO8601DateTransform.swift */; };
+		4B770D771D1A69E900CB8BAC /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B770D661D1A69E900CB8BAC /* Map.swift */; };
+		4B770D781D1A69E900CB8BAC /* Mappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B770D671D1A69E900CB8BAC /* Mappable.swift */; };
+		4B770D791D1A69E900CB8BAC /* Mapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B770D681D1A69E900CB8BAC /* Mapper.swift */; };
+		4B770D7A1D1A69E900CB8BAC /* NSDecimalNumberTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B770D691D1A69E900CB8BAC /* NSDecimalNumberTransform.swift */; };
+		4B770D7B1D1A69E900CB8BAC /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B770D6A1D1A69E900CB8BAC /* Operators.swift */; };
+		4B770D7C1D1A69E900CB8BAC /* ToJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B770D6C1D1A69E900CB8BAC /* ToJSON.swift */; };
+		4B770D7D1D1A69E900CB8BAC /* TransformOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B770D6D1D1A69E900CB8BAC /* TransformOf.swift */; };
+		4B770D7E1D1A69E900CB8BAC /* TransformType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B770D6E1D1A69E900CB8BAC /* TransformType.swift */; };
+		4B770D7F1D1A69E900CB8BAC /* URLTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B770D6F1D1A69E900CB8BAC /* URLTransform.swift */; };
+		4B770D811D1A6B1200CB8BAC /* JDLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B770D801D1A6B1200CB8BAC /* JDLoadingView.swift */; };
+		4B770D841D1A815E00CB8BAC /* OpenUrlAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B770D831D1A815E00CB8BAC /* OpenUrlAction.swift */; };
+		4B770D861D1A8F4300CB8BAC /* PicFeedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B770D851D1A8F4300CB8BAC /* PicFeedController.swift */; };
+		4B770D891D1A8F5900CB8BAC /* DuanFeedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B770D871D1A8F5900CB8BAC /* DuanFeedController.swift */; };
+		4B770D8C1D1A8FB000CB8BAC /* MovieFeedCountroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B770D8B1D1A8FB000CB8BAC /* MovieFeedCountroller.swift */; };
+		4B770D8F1D1A8FC100CB8BAC /* OOXXFeedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B770D8D1D1A8FC100CB8BAC /* OOXXFeedController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,9 +63,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D6B7CD2528775113033A594 /* Pods_DownXXOO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DownXXOO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		344AACBA474157A378A71793 /* Pods-DownXXOO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DownXXOO.release.xcconfig"; path = "Pods/Target Support Files/Pods-DownXXOO/Pods-DownXXOO.release.xcconfig"; sourceTree = "<group>"; };
 		4B671DB01D178581001C20AA /* DownXXOO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DownXXOO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B671DB31D178581001C20AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4B671DB51D178581001C20AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4B671DB51D178581001C20AA /* TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
 		4B671DB71D178581001C20AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B671DBA1D178581001C20AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4B671DBC1D178581001C20AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +77,36 @@
 		4B671DCC1D178581001C20AA /* DownXXOOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DownXXOOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B671DD01D178581001C20AA /* DownXXOOUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownXXOOUITests.swift; sourceTree = "<group>"; };
 		4B671DD21D178581001C20AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B671DE01D17A37D001C20AA /* NewFeedController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewFeedController.swift; sourceTree = "<group>"; };
+		4B671DE31D17D6A6001C20AA /* GetJianDanApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetJianDanApi.swift; sourceTree = "<group>"; };
+		4B770D041D19306E00CB8BAC /* RecentItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecentItem.swift; sourceTree = "<group>"; };
+		4B770D4F1D19455400CB8BAC /* JianDanScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JianDanScrollView.swift; sourceTree = "<group>"; };
+		4B770D511D1A2D2600CB8BAC /* RecentItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecentItemCell.swift; sourceTree = "<group>"; };
+		4B770D571D1A3A6900CB8BAC /* NSColor+JianDan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSColor+JianDan.swift"; sourceTree = "<group>"; };
+		4B770D591D1A3B4000CB8BAC /* JianDanButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JianDanButton.swift; sourceTree = "<group>"; };
+		4B770D5D1D1A69E900CB8BAC /* AlamofireObjectMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireObjectMapper.swift; sourceTree = "<group>"; };
+		4B770D601D1A69E900CB8BAC /* CustomDateFormatTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomDateFormatTransform.swift; sourceTree = "<group>"; };
+		4B770D611D1A69E900CB8BAC /* DateFormatterTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateFormatterTransform.swift; sourceTree = "<group>"; };
+		4B770D621D1A69E900CB8BAC /* DateTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateTransform.swift; sourceTree = "<group>"; };
+		4B770D631D1A69E900CB8BAC /* EnumTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnumTransform.swift; sourceTree = "<group>"; };
+		4B770D641D1A69E900CB8BAC /* FromJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FromJSON.swift; sourceTree = "<group>"; };
+		4B770D651D1A69E900CB8BAC /* ISO8601DateTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISO8601DateTransform.swift; sourceTree = "<group>"; };
+		4B770D661D1A69E900CB8BAC /* Map.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
+		4B770D671D1A69E900CB8BAC /* Mappable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mappable.swift; sourceTree = "<group>"; };
+		4B770D681D1A69E900CB8BAC /* Mapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mapper.swift; sourceTree = "<group>"; };
+		4B770D691D1A69E900CB8BAC /* NSDecimalNumberTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSDecimalNumberTransform.swift; sourceTree = "<group>"; };
+		4B770D6A1D1A69E900CB8BAC /* Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
+		4B770D6C1D1A69E900CB8BAC /* ToJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToJSON.swift; sourceTree = "<group>"; };
+		4B770D6D1D1A69E900CB8BAC /* TransformOf.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransformOf.swift; sourceTree = "<group>"; };
+		4B770D6E1D1A69E900CB8BAC /* TransformType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransformType.swift; sourceTree = "<group>"; };
+		4B770D6F1D1A69E900CB8BAC /* URLTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLTransform.swift; sourceTree = "<group>"; };
+		4B770D801D1A6B1200CB8BAC /* JDLoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDLoadingView.swift; sourceTree = "<group>"; };
+		4B770D831D1A815E00CB8BAC /* OpenUrlAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenUrlAction.swift; sourceTree = "<group>"; };
+		4B770D851D1A8F4300CB8BAC /* PicFeedController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PicFeedController.swift; sourceTree = "<group>"; };
+		4B770D871D1A8F5900CB8BAC /* DuanFeedController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DuanFeedController.swift; sourceTree = "<group>"; };
+		4B770D8B1D1A8FB000CB8BAC /* MovieFeedCountroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieFeedCountroller.swift; sourceTree = "<group>"; };
+		4B770D8D1D1A8FC100CB8BAC /* OOXXFeedController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OOXXFeedController.swift; sourceTree = "<group>"; };
+		6C97A797C4AF3924A21BD6D7 /* Pods-DownXXOO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DownXXOO.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DownXXOO/Pods-DownXXOO.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0ADB1A82491736FF62FD7DF5 /* Pods_DownXXOO.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +135,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		446736367030CFCA6380EF6E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D6B7CD2528775113033A594 /* Pods_DownXXOO.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4B671DA71D178581001C20AA = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +150,8 @@
 				4B671DC41D178581001C20AA /* DownXXOOTests */,
 				4B671DCF1D178581001C20AA /* DownXXOOUITests */,
 				4B671DB11D178581001C20AA /* Products */,
+				C1200267559D03292195886D /* Pods */,
+				446736367030CFCA6380EF6E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,8 +168,12 @@
 		4B671DB21D178581001C20AA /* DownXXOO */ = {
 			isa = PBXGroup;
 			children = (
+				4B770D821D1A813D00CB8BAC /* Actions */,
+				4B770D5B1D1A69E900CB8BAC /* Vender */,
+				4B770D4E1D19451300CB8BAC /* Views */,
+				4B671DE21D17D5E1001C20AA /* Model */,
+				4B671DDF1D17A33D001C20AA /* Controllers */,
 				4B671DB31D178581001C20AA /* AppDelegate.swift */,
-				4B671DB51D178581001C20AA /* ViewController.swift */,
 				4B671DB71D178581001C20AA /* Assets.xcassets */,
 				4B671DB91D178581001C20AA /* Main.storyboard */,
 				4B671DBC1D178581001C20AA /* Info.plist */,
@@ -122,6 +199,112 @@
 			path = DownXXOOUITests;
 			sourceTree = "<group>";
 		};
+		4B671DDF1D17A33D001C20AA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4B671DB51D178581001C20AA /* TabViewController.swift */,
+				4B671DE01D17A37D001C20AA /* NewFeedController.swift */,
+				4B770D851D1A8F4300CB8BAC /* PicFeedController.swift */,
+				4B770D871D1A8F5900CB8BAC /* DuanFeedController.swift */,
+				4B770D8B1D1A8FB000CB8BAC /* MovieFeedCountroller.swift */,
+				4B770D8D1D1A8FC100CB8BAC /* OOXXFeedController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		4B671DE21D17D5E1001C20AA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4B671DE31D17D6A6001C20AA /* GetJianDanApi.swift */,
+				4B770D041D19306E00CB8BAC /* RecentItem.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		4B770D4E1D19451300CB8BAC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4B770D4F1D19455400CB8BAC /* JianDanScrollView.swift */,
+				4B770D511D1A2D2600CB8BAC /* RecentItemCell.swift */,
+				4B770D571D1A3A6900CB8BAC /* NSColor+JianDan.swift */,
+				4B770D591D1A3B4000CB8BAC /* JianDanButton.swift */,
+				4B770D801D1A6B1200CB8BAC /* JDLoadingView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		4B770D5B1D1A69E900CB8BAC /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+				4B770D5C1D1A69E900CB8BAC /* AlamofireObjectMapper */,
+				4B770D5E1D1A69E900CB8BAC /* ObjectMapper */,
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		4B770D5C1D1A69E900CB8BAC /* AlamofireObjectMapper */ = {
+			isa = PBXGroup;
+			children = (
+				4B770D5D1D1A69E900CB8BAC /* AlamofireObjectMapper.swift */,
+			);
+			path = AlamofireObjectMapper;
+			sourceTree = "<group>";
+		};
+		4B770D5E1D1A69E900CB8BAC /* ObjectMapper */ = {
+			isa = PBXGroup;
+			children = (
+				4B770D5F1D1A69E900CB8BAC /* Core */,
+				4B770D6B1D1A69E900CB8BAC /* Transforms */,
+			);
+			path = ObjectMapper;
+			sourceTree = "<group>";
+		};
+		4B770D5F1D1A69E900CB8BAC /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				4B770D601D1A69E900CB8BAC /* CustomDateFormatTransform.swift */,
+				4B770D611D1A69E900CB8BAC /* DateFormatterTransform.swift */,
+				4B770D621D1A69E900CB8BAC /* DateTransform.swift */,
+				4B770D631D1A69E900CB8BAC /* EnumTransform.swift */,
+				4B770D641D1A69E900CB8BAC /* FromJSON.swift */,
+				4B770D651D1A69E900CB8BAC /* ISO8601DateTransform.swift */,
+				4B770D661D1A69E900CB8BAC /* Map.swift */,
+				4B770D671D1A69E900CB8BAC /* Mappable.swift */,
+				4B770D681D1A69E900CB8BAC /* Mapper.swift */,
+				4B770D691D1A69E900CB8BAC /* NSDecimalNumberTransform.swift */,
+				4B770D6A1D1A69E900CB8BAC /* Operators.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		4B770D6B1D1A69E900CB8BAC /* Transforms */ = {
+			isa = PBXGroup;
+			children = (
+				4B770D6C1D1A69E900CB8BAC /* ToJSON.swift */,
+				4B770D6D1D1A69E900CB8BAC /* TransformOf.swift */,
+				4B770D6E1D1A69E900CB8BAC /* TransformType.swift */,
+				4B770D6F1D1A69E900CB8BAC /* URLTransform.swift */,
+			);
+			path = Transforms;
+			sourceTree = "<group>";
+		};
+		4B770D821D1A813D00CB8BAC /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+				4B770D831D1A815E00CB8BAC /* OpenUrlAction.swift */,
+			);
+			name = Actions;
+			sourceTree = "<group>";
+		};
+		C1200267559D03292195886D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C97A797C4AF3924A21BD6D7 /* Pods-DownXXOO.debug.xcconfig */,
+				344AACBA474157A378A71793 /* Pods-DownXXOO.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,9 +312,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4B671DD51D178581001C20AA /* Build configuration list for PBXNativeTarget "DownXXOO" */;
 			buildPhases = (
+				3DE7AE58257F9E8ECA8514E6 /* Check Pods Manifest.lock */,
 				4B671DAC1D178581001C20AA /* Sources */,
 				4B671DAD1D178581001C20AA /* Frameworks */,
 				4B671DAE1D178581001C20AA /* Resources */,
+				44742C1079372400B9CA52F2 /* Embed Pods Frameworks */,
+				50BAEEE3E37F11D119E83032 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -247,13 +433,90 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3DE7AE58257F9E8ECA8514E6 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		44742C1079372400B9CA52F2 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DownXXOO/Pods-DownXXOO-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50BAEEE3E37F11D119E83032 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DownXXOO/Pods-DownXXOO-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4B671DAC1D178581001C20AA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B671DB61D178581001C20AA /* ViewController.swift in Sources */,
+				4B770D701D1A69E900CB8BAC /* AlamofireObjectMapper.swift in Sources */,
+				4B770D581D1A3A6900CB8BAC /* NSColor+JianDan.swift in Sources */,
+				4B770D7B1D1A69E900CB8BAC /* Operators.swift in Sources */,
+				4B770D711D1A69E900CB8BAC /* CustomDateFormatTransform.swift in Sources */,
+				4B770D7E1D1A69E900CB8BAC /* TransformType.swift in Sources */,
+				4B671DE11D17A37D001C20AA /* NewFeedController.swift in Sources */,
+				4B770D771D1A69E900CB8BAC /* Map.swift in Sources */,
+				4B770D521D1A2D2600CB8BAC /* RecentItemCell.swift in Sources */,
+				4B770D751D1A69E900CB8BAC /* FromJSON.swift in Sources */,
+				4B770D781D1A69E900CB8BAC /* Mappable.swift in Sources */,
+				4B770D741D1A69E900CB8BAC /* EnumTransform.swift in Sources */,
+				4B770D721D1A69E900CB8BAC /* DateFormatterTransform.swift in Sources */,
+				4B770D731D1A69E900CB8BAC /* DateTransform.swift in Sources */,
+				4B770D8F1D1A8FC100CB8BAC /* OOXXFeedController.swift in Sources */,
+				4B770D7D1D1A69E900CB8BAC /* TransformOf.swift in Sources */,
+				4B770D761D1A69E900CB8BAC /* ISO8601DateTransform.swift in Sources */,
+				4B770D7F1D1A69E900CB8BAC /* URLTransform.swift in Sources */,
+				4B770D5A1D1A3B4000CB8BAC /* JianDanButton.swift in Sources */,
+				4B770D7C1D1A69E900CB8BAC /* ToJSON.swift in Sources */,
+				4B770D861D1A8F4300CB8BAC /* PicFeedController.swift in Sources */,
+				4B770D051D19306E00CB8BAC /* RecentItem.swift in Sources */,
+				4B770D7A1D1A69E900CB8BAC /* NSDecimalNumberTransform.swift in Sources */,
+				4B671DE41D17D6A6001C20AA /* GetJianDanApi.swift in Sources */,
+				4B770D811D1A6B1200CB8BAC /* JDLoadingView.swift in Sources */,
+				4B671DB61D178581001C20AA /* TabViewController.swift in Sources */,
+				4B770D501D19455400CB8BAC /* JianDanScrollView.swift in Sources */,
 				4B671DB41D178581001C20AA /* AppDelegate.swift in Sources */,
+				4B770D8C1D1A8FB000CB8BAC /* MovieFeedCountroller.swift in Sources */,
+				4B770D791D1A69E900CB8BAC /* Mapper.swift in Sources */,
+				4B770D841D1A815E00CB8BAC /* OpenUrlAction.swift in Sources */,
+				4B770D891D1A8F5900CB8BAC /* DuanFeedController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,25 +647,36 @@
 		};
 		4B671DD61D178581001C20AA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C97A797C4AF3924A21BD6D7 /* Pods-DownXXOO.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = DownXXOO/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = com.weinong.DownXXOO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		4B671DD71D178581001C20AA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 344AACBA474157A378A71793 /* Pods-DownXXOO.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = DownXXOO/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = com.weinong.DownXXOO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
 			name = Release;
 		};
@@ -475,6 +749,7 @@
 				4B671DD71D178581001C20AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4B671DD81D178581001C20AA /* Build configuration list for PBXNativeTarget "DownXXOOTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +758,7 @@
 				4B671DDA1D178581001C20AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4B671DDB1D178581001C20AA /* Build configuration list for PBXNativeTarget "DownXXOOUITests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +767,7 @@
 				4B671DDD1D178581001C20AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
