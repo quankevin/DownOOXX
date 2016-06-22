@@ -84,7 +84,7 @@ extension NewFeedController:NSTableViewDataSource{
     }
     
     func tableView(tableView: NSTableView, viewForTableColumn tableColumn: NSTableColumn?, row: Int) -> NSView? {
-//        loadMoreIfNeeded(row)
+        loadMoreIfNeeded(row)
         return RecentItemCell.view(tableView, owner: self, subject: items[row])
     }
     

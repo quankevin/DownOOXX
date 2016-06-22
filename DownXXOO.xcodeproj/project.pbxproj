@@ -43,6 +43,10 @@
 		4B770D891D1A8F5900CB8BAC /* DuanFeedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B770D871D1A8F5900CB8BAC /* DuanFeedController.swift */; };
 		4B770D8C1D1A8FB000CB8BAC /* MovieFeedCountroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B770D8B1D1A8FB000CB8BAC /* MovieFeedCountroller.swift */; };
 		4B770D8F1D1A8FC100CB8BAC /* OOXXFeedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B770D8D1D1A8FC100CB8BAC /* OOXXFeedController.swift */; };
+		4B770D921D1A9FEE00CB8BAC /* OOXXItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B770D911D1A9FEE00CB8BAC /* OOXXItem.swift */; };
+		4B770D941D1AA21900CB8BAC /* VideoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B770D931D1AA21900CB8BAC /* VideoItem.swift */; };
+		4B770D961D1AA26A00CB8BAC /* DuanItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B770D951D1AA26A00CB8BAC /* DuanItem.swift */; };
+		4B770D981D1AA28000CB8BAC /* PicItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B770D971D1AA28000CB8BAC /* PicItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,6 +110,10 @@
 		4B770D871D1A8F5900CB8BAC /* DuanFeedController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DuanFeedController.swift; sourceTree = "<group>"; };
 		4B770D8B1D1A8FB000CB8BAC /* MovieFeedCountroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieFeedCountroller.swift; sourceTree = "<group>"; };
 		4B770D8D1D1A8FC100CB8BAC /* OOXXFeedController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OOXXFeedController.swift; sourceTree = "<group>"; };
+		4B770D911D1A9FEE00CB8BAC /* OOXXItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OOXXItem.swift; sourceTree = "<group>"; };
+		4B770D931D1AA21900CB8BAC /* VideoItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoItem.swift; sourceTree = "<group>"; };
+		4B770D951D1AA26A00CB8BAC /* DuanItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DuanItem.swift; sourceTree = "<group>"; };
+		4B770D971D1AA28000CB8BAC /* PicItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PicItem.swift; sourceTree = "<group>"; };
 		6C97A797C4AF3924A21BD6D7 /* Pods-DownXXOO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DownXXOO.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DownXXOO/Pods-DownXXOO.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -217,6 +225,10 @@
 			children = (
 				4B671DE31D17D6A6001C20AA /* GetJianDanApi.swift */,
 				4B770D041D19306E00CB8BAC /* RecentItem.swift */,
+				4B770D911D1A9FEE00CB8BAC /* OOXXItem.swift */,
+				4B770D931D1AA21900CB8BAC /* VideoItem.swift */,
+				4B770D951D1AA26A00CB8BAC /* DuanItem.swift */,
+				4B770D971D1AA28000CB8BAC /* PicItem.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -486,12 +498,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B770D941D1AA21900CB8BAC /* VideoItem.swift in Sources */,
 				4B770D701D1A69E900CB8BAC /* AlamofireObjectMapper.swift in Sources */,
 				4B770D581D1A3A6900CB8BAC /* NSColor+JianDan.swift in Sources */,
 				4B770D7B1D1A69E900CB8BAC /* Operators.swift in Sources */,
 				4B770D711D1A69E900CB8BAC /* CustomDateFormatTransform.swift in Sources */,
 				4B770D7E1D1A69E900CB8BAC /* TransformType.swift in Sources */,
 				4B671DE11D17A37D001C20AA /* NewFeedController.swift in Sources */,
+				4B770D921D1A9FEE00CB8BAC /* OOXXItem.swift in Sources */,
 				4B770D771D1A69E900CB8BAC /* Map.swift in Sources */,
 				4B770D521D1A2D2600CB8BAC /* RecentItemCell.swift in Sources */,
 				4B770D751D1A69E900CB8BAC /* FromJSON.swift in Sources */,
@@ -504,8 +518,10 @@
 				4B770D761D1A69E900CB8BAC /* ISO8601DateTransform.swift in Sources */,
 				4B770D7F1D1A69E900CB8BAC /* URLTransform.swift in Sources */,
 				4B770D5A1D1A3B4000CB8BAC /* JianDanButton.swift in Sources */,
+				4B770D961D1AA26A00CB8BAC /* DuanItem.swift in Sources */,
 				4B770D7C1D1A69E900CB8BAC /* ToJSON.swift in Sources */,
 				4B770D861D1A8F4300CB8BAC /* PicFeedController.swift in Sources */,
+				4B770D981D1AA28000CB8BAC /* PicItem.swift in Sources */,
 				4B770D051D19306E00CB8BAC /* RecentItem.swift in Sources */,
 				4B770D7A1D1A69E900CB8BAC /* NSDecimalNumberTransform.swift in Sources */,
 				4B671DE41D17D6A6001C20AA /* GetJianDanApi.swift in Sources */,
