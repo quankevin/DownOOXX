@@ -66,7 +66,7 @@ class Videos: Mappable {
         published <- map["published"]
         comment_count <- map["comment_count"]
         is_panorama <- map["is_panorama"]
-        description <- map["description"]
+        jdescription <- map["description"]
         
     }
     var public_type: String?
@@ -117,7 +117,7 @@ class Videos: Mappable {
 
     var is_panorama: String?
 
-    var description: String?
+    var jdescription: String?
 
 }
 
