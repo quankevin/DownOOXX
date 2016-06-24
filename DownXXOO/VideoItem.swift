@@ -26,12 +26,49 @@ class VideoItem: Mappable {
         
     }
     func mapping(map: Map) {
-        
+        status <- map["status"]
+        current_page <- map["current_page"]
+        page_count <- map["page_count"]
+        total_comments <- map["total_comments"]
+        count <- map["count"]
+        comments <- map["comments"]
+
     }
 }
 
-class Videos: NSObject {
-
+class Videos: Mappable {
+    required init?(_ map: Map){
+        
+    }
+    func mapping(map: Map) {
+        
+        public_type <- map["public_type"]
+        thumbnail <- map["thumbnail"]
+        title <- map["title"]
+        link <- map["link"]
+        tags <- map["tags"]
+        duration <- map["duration"]
+        thumbnail_v2 <- map["thumbnail_v2"]
+        copyright_type <- map["copyright_type"]
+        video_source <- map["video_source"]
+        up_count <- map["up_count"]
+        category <- map["category"]
+        state <- map["state"]
+        paid <- map["paid"]
+        id <- map["id"]
+        user <- map["user"]
+        player <- map["player"]
+        down_count <- map["down_count"]
+        view_count <- map["view_count"]
+        operation_limit <- map["operation_limit"]
+        streamtypes <- map["streamtypes"]
+        favorite_count <- map["favorite_count"]
+        published <- map["published"]
+        comment_count <- map["comment_count"]
+        is_panorama <- map["is_panorama"]
+        description <- map["description"]
+        
+    }
     var public_type: String?
 
     var thumbnail: String?
@@ -84,8 +121,16 @@ class Videos: NSObject {
 
 }
 
-class User: NSObject {
-
+class User: Mappable {
+    required init?(_ map: Map){
+        
+    }
+    func mapping(map: Map) {
+        id <- map["id"]
+        name <- map["name"]
+        link <- map["link"]
+        
+    }
     var id: String?
 
     var name: String?

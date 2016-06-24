@@ -826,7 +826,7 @@
                                     <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </clipView>
                                 <scroller key="horizontalScroller" hidden="YES" verticalHuggingPriority="750" horizontal="YES" id="d2c-JH-uEz">
-                                    <rect key="frame" x="1" y="544" width="758" height="15"/>
+                                    <rect key="frame" x="1" y="-14" width="0.0" height="15"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </scroller>
                                 <scroller key="verticalScroller" hidden="YES" verticalHuggingPriority="750" horizontal="NO" id="SVv-bn-E2z">

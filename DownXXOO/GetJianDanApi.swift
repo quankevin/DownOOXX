@@ -38,7 +38,7 @@ class GetJianDanApi {
         //                callback(o)
         //            }
         //        }
-        Alamofire.request(.GET, url).responseJSON { response in
+        Alamofire.request(.GET, url).responseObject { (response: Response<OOXXItem,NSError>) in
             switch response.result{
             case .Failure(let error):
                 print("Load Data Failed")
@@ -46,8 +46,8 @@ class GetJianDanApi {
             case .Success:
 //                print("Load Data Success====================================s")
                 let o = response.result.value
-                
-                let json = JSON(o!)
+                callback(o)
+//                let json = JSON(o!)
 //                print(json)
                 //                let model = RecentItem.parse(dict: response.result.value)
 //                print("Load Data Success====================================e")
@@ -68,7 +68,7 @@ class GetJianDanApi {
         //                callback(o)
         //            }
         //        }
-        Alamofire.request(.GET, url).responseJSON { response in
+        Alamofire.request(.GET, url).responseObject { (response: Response<VideoItem,NSError>) in
             switch response.result{
             case .Failure(let error):
                 print("Load Data Failed")
@@ -76,8 +76,8 @@ class GetJianDanApi {
             case .Success:
 //                print("Load Data Success====================================s")
                 let o = response.result.value
-                
-                let json = JSON(o!)
+                callback(o)
+//                let json = JSON(o!)
 //                print(json)
                 //                let model = RecentItem.parse(dict: response.result.value)
 //                print("Load Data Success====================================e")
@@ -99,7 +99,7 @@ class GetJianDanApi {
         //                callback(o)
         //            }
         //        }
-        Alamofire.request(.GET, url).responseJSON { response in
+        Alamofire.request(.GET, url).responseObject { (response: Response<DuanItem,NSError>) in
             switch response.result{
             case .Failure(let error):
                 print("Load Data Failed")
@@ -107,8 +107,8 @@ class GetJianDanApi {
             case .Success:
 //                print("Load Data Success====================================s")
                 let o = response.result.value
-                
-                let json = JSON(o!)
+                callback(o)
+//                let json = JSON(o!)
 //                print(json)
                 //                let model = RecentItem.parse(dict: response.result.value)
 //                print("Load Data Success====================================e")
@@ -129,16 +129,16 @@ class GetJianDanApi {
 //                callback(o)
 //            }
 //        }
-        Alamofire.request(.GET, url).responseJSON { response in
+        Alamofire.request(.GET, url).responseObject { (response: Response<PicItem,NSError>) in
             switch response.result{
             case .Failure(let error):
-                print("Load Data Failed")
+//                print("Load Data Failed")
                 callback(error)
             case .Success:
 //                print("Load Data Success====================================s")
                 let o = response.result.value
-                
-                let json = JSON(o!)
+                callback(o)
+//                let json = JSON(o!)
 //                print(json)
                 //                let model = RecentItem.parse(dict: response.result.value)
 //                print("Load Data Success====================================e")

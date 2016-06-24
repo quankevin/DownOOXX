@@ -26,6 +26,11 @@ class PicItem: Mappable {
         
     }
     func mapping(map: Map) {
-        
+        status <- map["status"]
+        current_page <- map["current_page"]
+        page_count <- map["page_count"]
+        total_comments <- map["total_comments"]
+        count <- map["count"]
+        comments <- map["comments"]
     }
 }
